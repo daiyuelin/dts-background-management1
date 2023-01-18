@@ -1,0 +1,35 @@
+{
+  "name": "dts-background-management",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "axios": "^0.18.0",
+    "echarts": "^5.4.0",
+    "element-plus": "^2.2.28",
+    "lib-flexible-computer": "^1.0.2",
+    "moment": "^2.29.1",
+    "nprogress": "0.2.0",
+    "postcss-loader": "^7.0.2",
+    "postcss-pxtorem": "^6.0.0",
+    "uuid": "^8.3.2",
+    "vite": "^4.0.3",
+    "vue": "^3.2.25",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "sass": "^1.52.2",
+    "unplugin-auto-import": "^0.11.5",
+    "unplugin-icons": "^0.14.8",
+    "unplugin-vue-components": "^0.22.12",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-router": "^4.0.14"
+  }
+}
