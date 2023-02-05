@@ -1,15 +1,14 @@
 /*
  * @Author: Panda-Awu leoyuan618@qq.com
  * @Date: 2022-12-06 14:01:13
- * @LastEditTime: 2022-12-09 14:49:01
- * @LastEditors: Panda-Awu leoyuan618@qq.com
+ * @LastEditTime: 2023-02-05 14:10:55
+ * @LastEditors: Dai YueLin
  * @Description:
  * @FilePath: /DTS-Online-Backend-2022-12-01/src/service/Dashboard/index.ts
  * Copyright (c) 2022 by Panda-Awu leoyuan618@qq.com , All Rights Reserved.
  */
 import Http from '@/utils/http'
 import axios from "axios";
-
 // 上傳
 export function upload(data) {
     return Http.get(webConfig.apiUrl + '/backend/dashboard/upload?fileName='+data)
